@@ -1,7 +1,12 @@
 const CONFIG = new Config({
+  crypto: {
+    coin: 'ETH',
+    currency: 'USD',
+    refreshIn: 10
+  },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Melbourne, Victoria',
     scale: 'C'
   },
   clock: {
@@ -21,7 +26,7 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: [],
+  disabled: ['crypto-rate', 'todo-list'],
   openLastVisitedTab: false,
   tabs: [
     {
