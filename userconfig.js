@@ -33,46 +33,43 @@ const CONFIG = new Config({
       name: 'boards',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'media',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://www.twitch.tv/',
+            name: '/ttv/'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
+            name: '/yt/',
+            url: 'https://www.youtube.com/',
             icon: 'leaf',
             icon_color: '#64876d'
           },
           {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
+            name: '/twit/',
+            url: 'https://twitter.com/home',
             icon: 'book'
-          },
-          {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
-          },
-          {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
           }
         ]
       },
       {
-        name: 'Comfy',
+        name: 'uni',
         links: [
           {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
+            name: '/main/',
+            url: 'https://my.monash.edu/'
           },
           {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
+            name: '/units/',
+            url: 'https://learning.monash.edu/'
+          },
+          {
+            name: '/mail/',
+            url: 'https://mail.google.com/mail/u/4/#inbox'
+          },
+          {
+            name: '/ed/',
+            url: 'https://edstem.org/au/dashboard'
           }
         ]
       },
